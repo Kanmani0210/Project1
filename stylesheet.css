@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*navigation bar classes*/
+body{
+	background-color: #fcf2f1;
+		
+}
+.navbar{
+	background-color: #cbd5ee;
+	
+}
+.nav-item .nav-link{
+	text-decoration: none;
+	color: #002f87;		
+	font-weight: bolder;
+}
+.nav-item:hover .nav-link:hover{
+	text-decoration: none;
+	color: white;	
+	background-color: #002f87;
+	font-weight: 900;
+	text-align: center;
+	
+	
+}
+.navbarcolour{
+	background-color:#4E0203;
+}
+.navcolour{
+	background-color:   #002f87;
+}
+.navposition{
+	position: sticky;
+	top: 0px;
+	z-index: 3;
+}
+/*footer class*/
+.footerheading{
+	color: #002f87;
+	font-weight: bold;
+}
+.footerbutton{
+	color: white;
+	background-color: #002f87;
+}
+.footerbutton:hover{
+	border-radius: 45%;
+	color:#002f87;
+	transition: 0.7s;
+	background-color: #f2d4d6;
+	border-color: darkblue;
+	border-style: solid;
+	font-weight: bold;
+	border-width: medium;
+}
+/*whatsapp*/
+.whatappsticky{
+	position:fixed;
+	right: 2%;
+	bottom: 2%;
+z-index: 2;
+	 
+}
+/*services*/
+.servicebutton{
+	border-color:   #1C0A0A;
+	color: white;
+	background-color: #3E0320;
+	border-radius: 5px;font-weight: bold;
+}
+.servicebutton:hover{
+	border-bottom-right-radius: 40%;
+	border-top-left-radius: 60%;
+	border-style: solid;
+	font-weight: bolder;
+	border-width: medium;
+	transition: 0.5s;
+	color: white;
+	background-color:#146109;
+	border-color: #b40e14;
+	transform: scale(1.4)
+}
+/*contact*/
+.contactbutton{
+	background-color: #d58ebf;
+	border-color: #400653;
+	border-width: medium;
+}
+.contactbutton:hover{
+	border-top-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+	border-style: solid;
+	font-weight: bold;
+	border-width: medium;
+	transition: 0.5s;
+	background-color: #683b2b;
+	color: white;
+	border-color:#b08401;
+}
+/*about us*/
